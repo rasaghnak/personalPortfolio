@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | By Rasaghna.k </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rasaghna</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Rasaghna</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+
+
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="cropped_image.png" alt="Rasaghna's profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am</p>
+            <h1 class="title">Rasaghna</h1>
+            <p class="section__text__p2"> a Data Science Enthusiast</p>
+            <div class="btn-container">
+                <button
+            class="btn btn-color-2"
+            onclick="window.open('Rasaghnak.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href='./#contact'"
+          >
+            Contact Info
+          </button>
+            </div>
+
+            <div id="socials-container">
+                <img src="linkedin.png" 
+                alt="My Linkedin Profile" 
+                class="icon"
+                onclick="window.open('https://www.linkedin.com/in/rasaghna-kuturu-857aa8153/')"
+                />
+                <img src="github.png" 
+                alt="My Github Profile" 
+                class="icon"
+                onclick="window.open('https://github.com/rasaghnak')"
+                />
+            </div>
+
+        </div>
+    </section>
+    <section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="experience.png" 
+                    alt="experience icon"
+                    class="icon"
+                    />
+                    <h1>Experience</h1>
+                    <h2>Research Data Analyst</h2>
+                    <p>Radius Indiana</p>
+                    <h2> Systems developer (NLU/ GEN AI)</h2>
+                    <p> TTEC Digital</p>
+                    
+                </div>
+                <div class="details-container">
+                    <img src="education.png" 
+                    alt="education icon"
+                    class="icon"
+                    />
+                    <h1>Education</h1>
+                    <p>Master's in Data Science<br> at<br>Indiana University Bloomington</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>I am a highly motivated and technically adept professional with a strong backgroung in Data Analysis and Machine learning domain. 
+                  I worked on various projects in Health, finance and economic development sectors working on crucial projects which helped in decision 
+                  making exemplified by my tenure at Radius Indiana, TTEC Digital Analytics with a strong skill set and track record of innovative projects. </p>
+            </div>
+        </div>
+    </div>
+    <img src="arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Skills</h2>
+              <div class="article-container">
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Numpy</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Pandas</h3>
+                    <p>Expert</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>R</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                
+                <article>
+                    <img
+                      src="checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Julia</h3>
+                      <p>Intermediate</p>
+                    </div>
+                </article>
+                  
+                <article>
+                    <img
+                      src="checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>NLP</h3>
+                      <p>Experienced</p>
+                    </div>
+                </article>
+
+
+                  
+
+            </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Skills</h2>
+              <div class="article-container">
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>AWS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Scikit Learn</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Tensor Flow</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java Script</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Tableau</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PowerBI</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+    </section>
+      
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+
+            <div class="details-container color-container">
+              
+              <div class="article-container">
+                <img
+                  src="portfolio1.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Customer segmentation</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/rasaghnak/customerSegmentationAnalysis')"
+                >
+                  Github
+                </button>
+
+              </div>
+            </div>
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="portfolio2.jpg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Netflix Data visualization</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://public.tableau.com/app/profile/rasaghna.kuturu/viz/Netflix_viz_Rasaghna/Netflix')"
+                >
+                  Tableau
+              </div>
+            </div>
+
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="portfolio3.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Rock image classification</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/rasaghnak/rock_image_classification')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <img
+          src="arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      
+      
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a onclick="window.open('mailto:rkuturu@iu.edu')" style="cursor: pointer;">rkuturu@iu.edu</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a onclick="window.open('https://www.linkedin.com/in/rasaghna-kuturu-857aa8153/')" style="cursor: pointer;">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="github.png" 
+            alt="My Github Profile" 
+            class="icon"
+            
+            />
+            <p><a onclick="window.open('https://github.com/rasaghnak')" style="cursor: pointer;">Github</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>Copyright &#169; 2024 Rasaghna.K All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
